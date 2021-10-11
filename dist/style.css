@@ -1,0 +1,15 @@
+.navbar{
+    position: sticky;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    top: 5px;
+    left: 47%;
+    width: 120px;
+}
+.navButton{
+    margin: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+    padding: 5px;
+}
