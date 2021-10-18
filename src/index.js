@@ -1,3 +1,4 @@
-import navbar from "./webframe";
+import frame from "./webframe";
+
 
 
