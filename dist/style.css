@@ -1,10 +1,25 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: #AE5E26;
+    z-index: 0;
+}
+#content{
+    height: 100%;
+    width: 100%;
+}
 .navbar{
     position: sticky;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
-    top: 5px;
-    left: 47%;
-    width: 120px;
+    top: 0px;
+    padding: 2px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #5F0F40;
+    z-index: 200;
+    
 }
 .navButton{
     margin: 5px;
@@ -12,4 +27,35 @@
     border-width: 3px;
     border-radius: 6px;
     padding: 5px;
+    background-color: #593837;
+}
+.navButton:hover{
+    background-color: #EBF8B8;
+}
+.back {
+    z-index: 0;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: #E36414;
+}
+.home{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    z-index: 150;
+}
+.contact{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.menu{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
